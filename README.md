@@ -19,6 +19,15 @@ This repository contains the code for the following paper:
 
 ![framework](https://github.com/JianboJiao/video-pace/blob/master/imgs/framework.png)
 
+## Self-supervised Pre-training Stage
+
+## Supervised Fine-tuning Stage
+
+## Evaluation
+
+
+
+
 
 ---
 If you find this work useful or use our code, please consider citing:
