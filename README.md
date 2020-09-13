@@ -45,7 +45,7 @@ Train with pace predictio task on c3d/r3d/r21d, the default clip length is 16 an
 
 
 ## Evaluation
-To be updated
+To be updated...
 
 # Citation
 If you find this work useful or use our code, please consider citing:
