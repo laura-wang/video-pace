@@ -20,12 +20,35 @@ This repository contains the code for the following paper:
 ![framework](https://github.com/JianboJiao/video-pace/blob/master/imgs/framework.png)
 
 
+# Requirements
+- pytroch >= 1.3.0
+- tensorboardX
+- cv2
+- scipy
+
+# Usage
+
+## Data preparation
+
+UCF101 dataset
+- Download the original UCF101 dataset from the [official website](https://www.crcv.ucf.edu/data/UCF101.php). And then extarct RGB images from videos and finally extract optical flow data using TVL1 method.
+- Or direclty download the pre-processed RGB and optical flow data of UCF101 [here](https://github.com/feichtenhofer/twostreamfusion) provided by feichtenhofer.
+
+## Pre-train
+
+Train with pace predictio task on S3D-G, the default clip length is 64 and input video size is 224 x 224.
+
+`python train.py --rgb_prefix RGB_DIR --gpu 0,1,2,3  --bs 32 --lr 0.01 --height 256 --width 256 --crop_sz 224 --clip_len 64`
+
+Train with pace predictio task on c3d/r3d/r21d, the default clip length is 16 and input video size is 112 x 112.
+
+`python train.py --rgb_prefix RGB_DIR --gpu 0 --bs 30 --lr 0.001 --height 128 --width 171 --crop_sz 112 --clip_len 64`
 
 
+## Evaluation
+To be updated
 
-
-
----
+# Citation
 If you find this work useful or use our code, please consider citing:
 
 ```
@@ -36,3 +59,5 @@ If you find this work useful or use our code, please consider citing:
   year         = "2020",
 }
 ```
+# Acknowlegement
+Part of our codes are adapted from [S3D-G HowTO100M](https://github.com/antoine77340/S3D_HowTo100M), we thank the authors for their contributions.
