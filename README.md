@@ -41,7 +41,7 @@ Train with pace predictio task on S3D-G, the default clip length is 64 and input
 
 Train with pace predictio task on c3d/r3d/r21d, the default clip length is 16 and input video size is 112 x 112.
 
-`python train.py --rgb_prefix RGB_DIR --gpu 0 --bs 30 --lr 0.001 --height 128 --width 171 --crop_sz 112 --clip_len 64`
+`python train.py --rgb_prefix RGB_DIR --gpu 0 --bs 30 --lr 0.001 --model c3d/r3d/r21d --height 128 --width 171 --crop_sz 112 --clip_len 64`
 
 
 ## Evaluation
