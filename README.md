@@ -4,7 +4,6 @@ This repository contains the code for the following paper:
 
 [Jiangliu Wang](https://scholar.google.com/citations?user=q6bsitMAAAAJ&hl=en), [Jianbo Jiao](https://jianbojiao.com/) and [Yunhui Liu](http://ri.cuhk.edu.hk/yhliu), ["Self-Supervised Video Representation Learning by Pace Prediction"](http://www.robots.ox.ac.uk/~vgg/publications/2020/Wang20/wang20.pdf), In: ECCV (2020).
 
-*Training/evaluation code and pre-trained models will be released very soon, please stay tuned...*
 
 * [Short Presentation](https://www.youtube.com/watch?v=wYHteK4BHlk)
 * [Full Presentation](https://www.youtube.com/watch?v=LCeJYkSFXSk)
@@ -61,3 +60,5 @@ If you find this work useful or use our code, please consider citing:
 ```
 # Acknowlegement
 Part of our codes are adapted from [S3D-G HowTO100M](https://github.com/antoine77340/S3D_HowTo100M), we thank the authors for their contributions.
+
+
