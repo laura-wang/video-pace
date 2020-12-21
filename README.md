@@ -37,7 +37,7 @@ UCF101 dataset
 
 Train with pace prediction task on S3D-G, the default clip length is 64 and input video size is 224 x 224.
 
-`python train.py --rgb_prefix RGB_DIR --gpu 0,1,2,3  --bs 32 --lr 0.01 --height 256 --width 256 --crop_sz 224 --clip_len 64`
+`python train.py --rgb_prefix RGB_DIR --gpu 0,1,2,3  --bs 32 --lr 0.001 --height 256 --width 256 --crop_sz 224 --clip_len 64`
 
 Train with pace prediction task on c3d/r3d/r21d, the default clip length is 16 and input video size is 112 x 112.
 
