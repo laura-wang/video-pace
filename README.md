@@ -31,7 +31,7 @@ This repository contains the code for the following paper:
 
 UCF101 dataset
 - Download the original UCF101 dataset from the [official website](https://www.crcv.ucf.edu/data/UCF101.php). And then extarct RGB images from videos.
-- Or direclty download the pre-processed RGB and optical flow data of UCF101 [here](https://github.com/feichtenhofer/twostreamfusion) provided by feichtenhofer.
+- Or direclty download the pre-processed RGB data of UCF101 [here](https://github.com/feichtenhofer/twostreamfusion) provided by feichtenhofer.
 
 ## Pre-train
 
